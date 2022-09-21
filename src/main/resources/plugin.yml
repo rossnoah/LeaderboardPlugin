@@ -1,0 +1,18 @@
+name: LeaderboardPlugin
+version: '${project.version}'
+main: net.vanillaplus.leaderboardplugin.LeaderboardPlugin
+api-version: 1.18
+prefix: LeaderboardPlugin
+depend:
+  - PlaceholderAPI
+commands:
+  killcount:
+    description: Shows the killcount of a player
+    usage: /killcount <player>
+    aliases: [kc]
+    permission: leaderboardplugin.killcount
+  killboard:
+    description: Shows the killboard
+    usage: /killboard
+    aliases: [kb]
+    permission: leaderboardplugin.killboard
